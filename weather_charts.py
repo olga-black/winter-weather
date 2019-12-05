@@ -19,7 +19,6 @@ mean_iev = iev.iloc[0]
 min_krk = krk.iloc[1]
 min_iev = iev.iloc[1]
 
-print(plt.style.available)
 plt.style.use('Solarize_Light2')
 
 plt.plot(months, mean_krk, label="Mean in Krakow", color='red')
@@ -34,4 +33,3 @@ plt.title('Winter temperature in KRK and IEV')
 plt.legend()
 plt.tight_layout()
 plt.show()
-
